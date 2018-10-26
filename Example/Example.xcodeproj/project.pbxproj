@@ -16,7 +16,7 @@
 		A62C64A92181BDDA00265170 /* ExampleTests.m in Sources */ = {isa = PBXBuildFile; fileRef = A62C64A82181BDDA00265170 /* ExampleTests.m */; };
 		A62C64B42181BDDA00265170 /* ExampleUITests.m in Sources */ = {isa = PBXBuildFile; fileRef = A62C64B32181BDDA00265170 /* ExampleUITests.m */; };
 		A62C64C62181BE4300265170 /* CommonTools.m in Sources */ = {isa = PBXBuildFile; fileRef = A62C64C32181BE4300265170 /* CommonTools.m */; };
-		A62C64C72181BE4300265170 /* MyControl.m in Sources */ = {isa = PBXBuildFile; fileRef = A62C64C52181BE4300265170 /* MyControl.m */; };
+		A62C64C72181BE4300265170 /* LTControl.m in Sources */ = {isa = PBXBuildFile; fileRef = A62C64C52181BE4300265170 /* LTControl.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -53,10 +53,10 @@
 		A62C64AF2181BDDA00265170 /* ExampleUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = ExampleUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		A62C64B32181BDDA00265170 /* ExampleUITests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ExampleUITests.m; sourceTree = "<group>"; };
 		A62C64B52181BDDA00265170 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
-		A62C64C22181BE4300265170 /* MyControl.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MyControl.h; sourceTree = "<group>"; };
+		A62C64C22181BE4300265170 /* LTControl.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = LTControl.h; sourceTree = "<group>"; };
 		A62C64C32181BE4300265170 /* CommonTools.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = CommonTools.m; sourceTree = "<group>"; };
 		A62C64C42181BE4300265170 /* CommonTools.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = CommonTools.h; sourceTree = "<group>"; };
-		A62C64C52181BE4300265170 /* MyControl.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = MyControl.m; sourceTree = "<group>"; };
+		A62C64C52181BE4300265170 /* LTControl.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = LTControl.m; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -142,8 +142,8 @@
 		A62C64C12181BE4300265170 /* Classes */ = {
 			isa = PBXGroup;
 			children = (
-				A62C64C22181BE4300265170 /* MyControl.h */,
-				A62C64C52181BE4300265170 /* MyControl.m */,
+				A62C64C22181BE4300265170 /* LTControl.h */,
+				A62C64C52181BE4300265170 /* LTControl.m */,
 				A62C64C42181BE4300265170 /* CommonTools.h */,
 				A62C64C32181BE4300265170 /* CommonTools.m */,
 			);
@@ -284,7 +284,7 @@
 				A62C64942181BDD900265170 /* ViewController.m in Sources */,
 				A62C649F2181BDDA00265170 /* main.m in Sources */,
 				A62C64C62181BE4300265170 /* CommonTools.m in Sources */,
-				A62C64C72181BE4300265170 /* MyControl.m in Sources */,
+				A62C64C72181BE4300265170 /* LTControl.m in Sources */,
 				A62C64912181BDD900265170 /* AppDelegate.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
